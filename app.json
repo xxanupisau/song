@@ -1,6 +1,6 @@
 {
     "name": "SIRIA",
-    "logo": "https://telegra.ph/SIRIA-11-09",
+    "logo": "https://telegra.ph/file/fc7255303c9a628f9fa97.jpg",
     "description": "SIRIA Music Voice Chat.",
     "keywords": ["music", "voice chat", "telegram"],
     "repository": "https://github.com/xxanupisau/song",
@@ -32,12 +32,12 @@
         "BG_IMAGE": {
             "description": "هنا هتحط صوره الخلفيه ان وجدت",
             "required": false,
-            "value":"https://telegra.ph/SIRIA-11-09"
+            "value":"https://telegra.ph/file/fc7255303c9a628f9fa97.jpg"
         },
         "THUMB_IMG": {
             "description": "سيبــها زي مهي عادي يبا -> bg_image",
             "required": false,
-            "value": "https://telegra.ph/SIRIA-11-09"
+            "value": "https://telegra.ph/file/fc7255303c9a628f9fa97.jpg"
         },
         "OWNER_NAME": {
             "description": "حط اليوز بتاعك منغير علامه @",
