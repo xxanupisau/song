@@ -1,9 +1,9 @@
 {
-    "name": "MADISON",
-    "logo": "https://telegra.ph/file/c05b5f73f392a9e986c45.jpg",
-    "description": "UFO Music Voice Chat.",
+    "name": "SIRIA",
+    "logo": "https://telegra.ph/SIRIA-11-09",
+    "description": "SIRIA Music Voice Chat.",
     "keywords": ["music", "voice chat", "telegram"],
-    "repository": "https://github.com/MADISON111110/MuS_AlF",
+    "repository": "https://github.com/xxanupisau/song",
     "stack": "container",
     "env": {
         "SESSION_NAME": {
@@ -17,32 +17,32 @@
         "BOT_NAME": {
             "description": "هنا هتحط اسم بوت الاغاني",
             "required": false,
-            "value": "الفا"
+            "value": "انوبيس"
         },
         "BOT_USERNAME": {
             "description": "يوزر نيــم البوت بتاعك منغير علامه -> @",
             "required": true,
-            "value": "MUS_ALF_BOT"
+            "value": "Ahmed_SIRIA_MUSIC_bot"
         },
         "ASSISTANT_NAME": {
             "description": "يوزر نيــم بوتك تاني منغير ->  @",
             "required": true,
-            "value": "MUS_ALF_BOT"
+            "value": "Ahmed_SIRIA_MUSIC_bot"
         },
         "BG_IMAGE": {
             "description": "هنا هتحط صوره الخلفيه ان وجدت",
             "required": false,
-            "value":"https://telegra.ph/file/c05b5f73f392a9e986c45.jpg"
+            "value":"https://telegra.ph/SIRIA-11-09"
         },
         "THUMB_IMG": {
             "description": "سيبــها زي مهي عادي يبا -> bg_image",
             "required": false,
-            "value": "https://telegra.ph/file/c05b5f73f392a9e986c45.jpg"
+            "value": "https://telegra.ph/SIRIA-11-09"
         },
         "OWNER_NAME": {
             "description": "حط اليوز بتاعك منغير علامه @",
             "required": false,
-            "value": "AAHMEED11"
+            "value": "U_U_U_Q"
         },
         "API_ID": {
             "description": "حــط App ID from my.telegram.org/apps",
@@ -69,12 +69,12 @@
         "UPDATES_CHANNEL": {
             "description": "هنا حط قناه السورس بتاعتك",
             "required": false,
-            "value": "so_alfaa"
+            "value": "SOURCEANUBIS"
         },
         "GROUP_SUPPORT": {
             "description": "هنا حط معرف جروبك",
             "required": false,
-            "value": "Te_AlFaA"
+            "value": "SOURCEANUBIS"
         }
     },
     "buildpacks": [
