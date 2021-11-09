@@ -1,0 +1,88 @@
+{
+    "name": "MADISON",
+    "logo": "https://telegra.ph/file/c05b5f73f392a9e986c45.jpg",
+    "description": "UFO Music Voice Chat.",
+    "keywords": ["music", "voice chat", "telegram"],
+    "repository": "https://github.com/MADISON111110/MuS_AlF",
+    "stack": "container",
+    "env": {
+        "SESSION_NAME": {
+            "description": "هنا حط كود تيرمكس يبرو",
+            "required": true
+        },
+        "BOT_TOKEN": {
+            "description": "هنا هتحط تكن بوتك",
+            "required": true
+        },
+        "BOT_NAME": {
+            "description": "هنا هتحط اسم بوت الاغاني",
+            "required": false,
+            "value": "الفا"
+        },
+        "BOT_USERNAME": {
+            "description": "يوزر نيــم البوت بتاعك منغير علامه -> @",
+            "required": true,
+            "value": "MUS_ALF_BOT"
+        },
+        "ASSISTANT_NAME": {
+            "description": "يوزر نيــم بوتك تاني منغير ->  @",
+            "required": true,
+            "value": "MUS_ALF_BOT"
+        },
+        "BG_IMAGE": {
+            "description": "هنا هتحط صوره الخلفيه ان وجدت",
+            "required": false,
+            "value":"https://telegra.ph/file/c05b5f73f392a9e986c45.jpg"
+        },
+        "THUMB_IMG": {
+            "description": "سيبــها زي مهي عادي يبا -> bg_image",
+            "required": false,
+            "value": "https://telegra.ph/file/c05b5f73f392a9e986c45.jpg"
+        },
+        "OWNER_NAME": {
+            "description": "حط اليوز بتاعك منغير علامه @",
+            "required": false,
+            "value": "AAHMEED11"
+        },
+        "API_ID": {
+            "description": "حــط App ID from my.telegram.org/apps",
+            "required": true
+        },
+        "API_HASH": {
+            "description": "حــط Api hash from my.telegram.org/apps",
+            "required": true
+        },
+        "SUDO_USERS": {
+            "description": "حط ايدي الادمن بتاع البوت",
+            "required": true
+        },
+        "DURATION_LIMIT": {
+            "description": "max",
+            "required": true,
+            "value": "60"
+        },
+        "PMPERMIT": {
+            "description": "سيــبها.",
+            "required": false,
+            "value": "ENABLE"
+        },
+        "UPDATES_CHANNEL": {
+            "description": "هنا حط قناه السورس بتاعتك",
+            "required": false,
+            "value": "so_alfaa"
+        },
+        "GROUP_SUPPORT": {
+            "description": "هنا حط معرف جروبك",
+            "required": false,
+            "value": "Te_AlFaA"
+        }
+    },
+    "buildpacks": [
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+    },
+    {
+      "url": "heroku/python"
+    }
+  ]
+}
